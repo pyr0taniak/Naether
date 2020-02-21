@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="en"> 
+
+	<head>
+		<meta charset="utf-8"/>
+		<meta lang="en">		
+		
+		<link rel="stylesheet" href="stylesheet.css"> 
+		
+		<img id = "Thelogo" src="Images/Naether Logo.png" width ="640" height="180"/>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="socket.io/socket.io.js"></script>
+		
+		<script src = "NaetherClient.js"></script>		 
+	</head>
+
+
+	<body>		
+		<br>
+		
+		<canvas id="myCanvas" width="512" height="512"></canvas> 
+
+		<br>
+		<div id="health"></div>
+		
+		<p>
+			Use W A S D to move around. Earn GOLD by defeating monsters outside of town. Return to town to purchase increasingly powerful weapons!
+		</p>
+		
+		
+		<ul id = "messages"></ul>
+		<form id="messagebox" action="">
+			<input id="m" autocomplete= "off" /> <button>Send</button>
+		</form>
+
+		
+	</body>
+
+</html>
